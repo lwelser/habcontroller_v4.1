@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SBH11-NBPC-D20-SM-BK")(type "KiCad")(uri "D:/work/electronics/projects/PhytoHab/013_habcontroller/habcontroller_v4/02_components/SBH11-NBPC-D20-SM-BK.pretty")(options "")(descr ""))
+  (lib (name "BH-122A-5")(type "KiCad")(uri "D:/work/electronics/projects/PhytoHab/013_habcontroller/habcontroller_v4/02_components/BH-122A-5/BH-122A-5.pretty")(options "")(descr ""))
+)

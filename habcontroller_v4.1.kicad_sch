@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "63d8ebc3-d81d-4869-925f-b28ad884a523")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 114.3 24.13)
+		(size 12.7 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e0152ea-4437-4951-89f1-a365e2dacb39")
+		(property "Sheetname" "PCA9685"
+			(at 114.3 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCA9685.kicad_sch"
+			(at 114.3 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "habcontroller_v4"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "040")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 24.13)
+		(size 30.48 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7773dce3-43b2-4fdb-a245-258140eb82d5")
+		(property "Sheetname" "RPI_Connector"
+			(at 48.26 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rpi_connector.kicad_sch"
+			(at 48.26 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "habcontroller_v4"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "020")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 68.58)
+		(size 13.97 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2089068-9606-437f-8e60-219a206f66c1")
+		(property "Sheetname" "Power"
+			(at 21.59 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powersystem.kicad_sch"
+			(at 21.59 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "habcontroller_v4"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "010")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 24.13)
+		(size 12.7 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fff94551-8b7c-4eb8-ba7c-511646405896")
+		(property "Sheetname" "RTC"
+			(at 88.9 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC.kicad_sch"
+			(at 88.9 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "habcontroller_v4"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "030")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "001")
+		)
+	)
+)

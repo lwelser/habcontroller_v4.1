@@ -1,0 +1,437 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "63d8ebc3-d81d-4869-925f-b28ad884a523")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 101.6)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1fcae418-b7ef-4cf0-be49-1180cf9bc64f")
+		(property "Sheetname" "storage"
+			(at 25.4 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 25.4 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "900")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 63.5)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 255 34 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f37d4d4-08eb-4633-ad5b-e9a295a64040")
+		(property "Sheetname" "PCF8575C"
+			(at 139.7 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIO-Multiplexer.kicad_sch"
+			(at 139.7 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Feld2" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "700")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 15 255 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58486cd9-8a71-4336-9353-75b232eb4196")
+		(property "Sheetname" "DC-DC-Converter"
+			(at 63.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dc-dc_converter.kicad_sch"
+			(at 63.5 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Feld2" ""
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "200")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 63.5)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 7 255 10 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e0152ea-4437-4951-89f1-a365e2dacb39")
+		(property "Sheetname" "PCA9685"
+			(at 177.8 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCA9685.kicad_sch"
+			(at 177.8 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "800")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 63.5)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 15 255 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7773dce3-43b2-4fdb-a245-258140eb82d5")
+		(property "Sheetname" "RPi_CM4"
+			(at 25.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rpi_connector.kicad_sch"
+			(at 25.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "400")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 15 255 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85811e20-2610-48e4-a5bf-8edeeb1afe1f")
+		(property "Sheetname" "LDO"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ldo.kicad_sch"
+			(at 101.6 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Feld2" ""
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "300")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 63.5)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 255 14 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a65ced2-6c74-4da7-a404-c238d079fe7e")
+		(property "Sheetname" "PCA9548"
+			(at 101.6 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2C-multiplexer.kicad_sch"
+			(at 101.6 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "600")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 139.7)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abd455d8-329f-441e-8b46-a9e39d61c815")
+		(property "Sheetname" "cons"
+			(at 25.4 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 25.4 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "1000")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 22 255 6 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f136d3d6-4640-430f-9e07-8a7433887404")
+		(property "Sheetname" "protective circuits"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "protective_circuits.kicad_sch"
+			(at 25.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Feld2" ""
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "100")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 63.5)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 255 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fff94551-8b7c-4eb8-ba7c-511646405896")
+		(property "Sheetname" "RTC"
+			(at 63.5 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC.kicad_sch"
+			(at 63.5 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523"
+					(page "500")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "001")
+		)
+	)
+)
