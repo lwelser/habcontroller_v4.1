@@ -6968,7 +6968,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 26"
+	(global_label "GPIO26"
 		(shape bidirectional)
 		(at 72.39 66.04 0)
 		(effects
