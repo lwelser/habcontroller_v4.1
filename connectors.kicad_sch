@@ -5,6 +5,127 @@
 	(uuid "359a1347-b469-47a4-9fa4-6d64dca2c344")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:DIN_Rail_Adapter"
 			(exclude_from_sim yes)
 			(in_bom yes)
@@ -87,7 +208,7 @@
 				)
 			)
 		)
-		(symbol "connectors_Molex:Molex_PicoSPOX_87437_4pos"
+		(symbol "connectors_Molex:Molex_PicoSPOX_87437_3pos"
 			(pin_names
 				(offset 1.016)
 			)
@@ -103,8 +224,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Molex_PicoSPOX_87437_4pos"
-				(at 0 -10.16 0)
+			(property "Value" "Molex_PicoSPOX_87437_3pos"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -112,7 +233,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "874370463:MOLEX_874370463"
+			(property "Footprint" "874370363:MOLEX_874370363"
 				(at 0 0 0)
 				(effects
 					(font
@@ -131,7 +252,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "\n1.5mm WtB VHdr SMT TR/Cap 2.54SnLF 4Ckt | Molex Incorporated 87437-0463\n"
+			(property "Description" "\nConnector Header Surface Mount 3 position 0.059 (1.50mm)\n"
 				(at 0 0 0)
 				(effects
 					(font
@@ -141,7 +262,7 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey_Part_Number" "WM14427TR-ND"
+			(property "DigiKey_Part_Number" "WM6684TR-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -151,7 +272,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/874370363/Molex/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -181,7 +302,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/874370363/Molex/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -221,7 +342,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "87437-0463"
+			(property "MP" "874370363"
 				(at 0 0 0)
 				(effects
 					(font
@@ -241,22 +362,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Molex_PicoSPOX_87437_4pos_0_0"
+			(symbol "Molex_PicoSPOX_87437_3pos_0_0"
 				(polyline
 					(pts
-						(xy 0 -6.35) (xy 1.27 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 1.905 -5.08)
+						(xy 0 -3.81) (xy 1.27 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -315,25 +424,14 @@
 					)
 				)
 				(rectangle
-					(start 0.4989 -7.62)
-					(end 8.1189 5.08)
+					(start 0.5821 -5.08)
+					(end 8.2021 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start 0.635 -5.3975)
-					(end 2.2225 -4.7625)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -477,8 +575,711 @@
 						)
 					)
 				)
+			)
+		)
+		(symbol "connectors_Molex:Molex_PicoSPOX_87438_12pos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Molex_PicoSPOX_87438_12pos"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "874381243:MOLEX_874381243"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "WM7656TR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Molex"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/87438-1243/Molex/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-1243/Molex/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "87438-1243"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47824&manufacturer=Molex&part_name=87438-1243&search_term=87438-1243"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nHeaders, 12 CKT 1.5mm HDR. Rt.-Angle SMT | Molex Incorporated 87438-1243\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Molex"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_PicoSPOX_87438_12pos_0_0"
+				(polyline
+					(pts
+						(xy 0 -13.97) (xy 1.27 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -12.7) (xy 1.905 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 1.905 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 1.905 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 1.905 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 1.905 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 1.905 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 1.905 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 12.7) (xy 1.905 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 1.905 15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 17.78) (xy 0 16.51)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.2328 -15.24)
+					(end 7.8528 17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 0.635 -13.0175)
+					(end 2.2225 -12.3825)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -10.4775)
+					(end 2.2225 -9.8425)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -7.9375)
+					(end 2.2225 -7.3025)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -5.3975)
+					(end 2.2225 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -2.8575)
+					(end 2.2225 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -0.3175)
+					(end 2.2225 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 2.2225)
+					(end 2.2225 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 4.7625)
+					(end 2.2225 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 7.3025)
+					(end 2.2225 7.9375)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 9.8425)
+					(end 2.2225 10.4775)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 12.3825)
+					(end 2.2225 13.0175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 14.9225)
+					(end 2.2225 15.5575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 15.24 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 15.24 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -496,7 +1297,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 7.62 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -506,6 +1307,186 @@
 						)
 					)
 					(number "4_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9_2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1885,9 +2866,21 @@
 			)
 		)
 	)
+	(junction
+		(at 161.29 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "710e8322-487f-42f9-b00c-ecc282d4309d")
+	)
+	(junction
+		(at 170.18 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a5a5e16-267a-4b74-b7fd-b80ef686b995")
+	)
 	(wire
 		(pts
-			(xy 151.13 106.68) (xy 151.13 107.95)
+			(xy 153.67 93.98) (xy 153.67 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 106.68) (xy 48.26 107.95)
+			(xy 50.8 93.98) (xy 50.8 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 107.95) (xy 30.48 106.68)
+			(xy 33.02 95.25) (xy 33.02 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +2930,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 111.76 106.68)
+			(xy 114.3 95.25) (xy 114.3 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +2960,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 116.84 107.95)
+			(xy 170.18 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2255038b-9638-4d56-b532-6fd505d8bac9")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +2990,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 106.68) (xy 109.22 107.95)
+			(xy 161.29 53.34) (xy 175.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c14549-5588-4729-9943-6542d46200b8")
+	)
+	(wire
+		(pts
+			(xy 111.76 93.98) (xy 111.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2007,6 +3020,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 93.98) (xy 204.47 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b6200f-2020-4419-bf19-0c9dc7268331")
+	)
+	(wire
+		(pts
 			(xy 59.69 62.23) (xy 59.69 67.31)
 		)
 		(stroke
@@ -2017,7 +3040,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 106.68) (xy 156.21 107.95)
+			(xy 158.75 93.98) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 107.95) (xy 71.12 106.68)
+			(xy 73.66 95.25) (xy 73.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 107.95) (xy 50.8 106.68)
+			(xy 53.34 95.25) (xy 53.34 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 107.95) (xy 133.35 106.68)
+			(xy 135.89 95.25) (xy 135.89 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 106.68) (xy 158.75 107.95)
+			(xy 161.29 93.98) (xy 161.29 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2137,7 +3160,27 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 106.68) (xy 68.58 107.95)
+			(xy 201.93 93.98) (xy 201.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4060f7-c295-4a2d-9f96-dc2795d00c01")
+	)
+	(wire
+		(pts
+			(xy 161.29 53.34) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7e17a5-f175-4ff3-9a65-7ed64efeeb4f")
+	)
+	(wire
+		(pts
+			(xy 71.12 93.98) (xy 71.12 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2157,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 107.95) (xy 173.99 106.68)
+			(xy 176.53 95.25) (xy 176.53 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 107.95) (xy 91.44 106.68)
+			(xy 93.98 95.25) (xy 93.98 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +3250,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 106.68) (xy 76.2 107.95)
+			(xy 199.39 95.25) (xy 199.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee8091e-6d78-48cc-a9ef-d7214e2d8e8f")
+	)
+	(wire
+		(pts
+			(xy 78.74 93.98) (xy 78.74 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +3280,27 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 107.95) (xy 153.67 106.68)
+			(xy 175.26 66.04) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b7e98f-a11f-405c-a80f-5a8eb7c43bf2")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 170.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91023df1-b59f-4cf7-853d-b3b690770b6c")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 156.21 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +3320,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 106.68) (xy 96.52 107.95)
+			(xy 99.06 93.98) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +3330,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 106.68) (xy 33.02 107.95)
+			(xy 158.75 53.34) (xy 161.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970ec623-c894-496c-a9bf-7f91738831cb")
+	)
+	(wire
+		(pts
+			(xy 35.56 93.98) (xy 35.56 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 106.68) (xy 130.81 107.95)
+			(xy 133.35 93.98) (xy 133.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 106.68) (xy 35.56 107.95)
+			(xy 38.1 93.98) (xy 38.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +3380,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 106.68) (xy 27.94 107.95)
+			(xy 196.85 95.25) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5ed24d-8d4a-407e-9876-52b5b134982d")
+	)
+	(wire
+		(pts
+			(xy 30.48 93.98) (xy 30.48 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +3400,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 106.68) (xy 179.07 107.95)
+			(xy 181.61 93.98) (xy 181.61 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2327,13 +3420,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 106.68) (xy 53.34 107.95)
+			(xy 55.88 93.98) (xy 55.88 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a83717ae-b36f-4377-a1ba-0458683cdc6a")
+	)
+	(wire
+		(pts
+			(xy 168.91 55.88) (xy 170.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b262cbae-0a33-4aa4-829f-a11e2bc421d6")
 	)
 	(wire
 		(pts
@@ -2347,7 +3450,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 106.68) (xy 93.98 107.95)
+			(xy 96.52 93.98) (xy 96.52 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 106.68) (xy 88.9 107.95)
+			(xy 91.44 93.98) (xy 91.44 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 106.68) (xy 55.88 107.95)
+			(xy 58.42 93.98) (xy 58.42 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +3530,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 106.68) (xy 73.66 107.95)
+			(xy 76.2 93.98) (xy 76.2 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +3540,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 107.95) (xy 171.45 106.68)
+			(xy 173.99 95.25) (xy 173.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2467,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 106.68) (xy 138.43 107.95)
+			(xy 140.97 93.98) (xy 140.97 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +3610,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 106.68) (xy 176.53 107.95)
+			(xy 179.07 93.98) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +3620,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 114.3 107.95)
+			(xy 116.84 93.98) (xy 116.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2527,7 +3630,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 106.68) (xy 135.89 107.95)
+			(xy 138.43 93.98) (xy 138.43 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2537,7 +3640,7 @@
 	)
 	(global_label "VSYS2"
 		(shape input)
-		(at 91.44 107.95 270)
+		(at 93.98 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2547,7 +3650,7 @@
 		)
 		(uuid "0325dd86-964c-4850-9ed0-0fe1d614fb44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 116.7409 90)
+			(at 93.98 104.0409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +3662,7 @@
 	)
 	(global_label "VSYS2"
 		(shape input)
-		(at 153.67 107.95 270)
+		(at 156.21 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2569,12 +3672,33 @@
 		)
 		(uuid "042fd811-fad5-485c-897c-c152f1db03b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 116.7409 90)
+			(at 156.21 104.0409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO10"
+		(shape bidirectional)
+		(at 45.72 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "05ca10ea-a2f4-46a6-9079-efffa4dfb4a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2601,6 +3725,27 @@
 			)
 		)
 	)
+	(global_label "GPIO17"
+		(shape bidirectional)
+		(at 67.31 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "09ce7e13-572c-46fc-b039-34558aac2274")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM4"
 		(shape input)
 		(at 130.81 67.31 270)
@@ -2623,9 +3768,30 @@
 			)
 		)
 	)
+	(global_label "GPIO21"
+		(shape bidirectional)
+		(at 77.47 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "13c39936-0192-47c9-b593-6319b5626c6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL V"
 		(shape bidirectional)
-		(at 114.3 107.95 270)
+		(at 116.84 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2636,7 +3802,7 @@
 		)
 		(uuid "17f05a51-be00-466d-8528-36d484850095")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 117.6103 90)
+			(at 116.84 104.9103 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +3814,7 @@
 	)
 	(global_label "SCL I"
 		(shape bidirectional)
-		(at 33.02 107.95 270)
+		(at 35.56 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2659,7 +3825,7 @@
 		)
 		(uuid "1877fa17-c184-4555-8f94-10d199e30f67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 117.1265 90)
+			(at 35.56 104.4265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +3837,7 @@
 	)
 	(global_label "VSYS2"
 		(shape input)
-		(at 173.99 107.95 270)
+		(at 176.53 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2681,7 +3847,7 @@
 		)
 		(uuid "189657c9-c6fe-467b-8d07-7c6956cd9acd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 116.7409 90)
+			(at 176.53 104.0409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,9 +3857,30 @@
 			)
 		)
 	)
+	(global_label "GPIO24"
+		(shape bidirectional)
+		(at 85.09 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "1c6fff80-91c9-46e6-9d34-9dcf7d9016c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL VI"
 		(shape bidirectional)
-		(at 135.89 107.95 270)
+		(at 138.43 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2704,12 +3891,33 @@
 		)
 		(uuid "1c901588-0ea2-408a-8ef8-c4903d50b23a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 118.2151 90)
+			(at 138.43 105.5151 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO15"
+		(shape bidirectional)
+		(at 58.42 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "20e237de-a4bd-4d74-8f6d-d765b27d17fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2732,6 +3940,27 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO1"
+		(shape bidirectional)
+		(at 158.75 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "25351723-9f37-4993-85ba-7daf02ae74fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2846,9 +4075,52 @@
 			)
 		)
 	)
+	(global_label "GPIO11"
+		(shape bidirectional)
+		(at 48.26 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "39975c25-b819-44c7-b4c7-c5be959ae775")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSYS2"
+		(shape input)
+		(at 199.39 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dc7dd42-2747-4de1-8ae8-0617240dfea1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 104.0409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL IV"
 		(shape bidirectional)
-		(at 93.98 107.95 270)
+		(at 96.52 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2859,7 +4131,7 @@
 		)
 		(uuid "3fb422fb-8310-48ff-8b82-8d318d5390b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 118.2151 90)
+			(at 96.52 105.5151 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,7 +4143,29 @@
 	)
 	(global_label "VSYS2"
 		(shape input)
-		(at 111.76 107.95 270)
+		(at 170.18 58.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "437ff167-4076-44fc-9632-eeb4287aa05e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 67.2109 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSYS2"
+		(shape input)
+		(at 114.3 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2881,12 +4175,96 @@
 		)
 		(uuid "448b8c0c-5457-4e15-b119-842a6b1c417f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 116.7409 90)
+			(at 114.3 104.0409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO13"
+		(shape bidirectional)
+		(at 53.34 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "4843bd40-087f-4a39-ba47-6e3974d29ec5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO25"
+		(shape bidirectional)
+		(at 87.63 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "52296596-c9cb-45e5-8a59-e7c6bfedd9df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO12"
+		(shape bidirectional)
+		(at 50.8 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "53388c20-b79f-4182-9c18-c3dcdbe08485")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO9"
+		(shape bidirectional)
+		(at 43.18 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "53682c1b-1f12-49c2-8079-4b3fd3813187")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2931,6 +4309,48 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO14"
+		(shape bidirectional)
+		(at 55.88 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "5556e68d-6a01-4e65-9946-6b98d6a23a9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO23"
+		(shape bidirectional)
+		(at 82.55 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "57cb496b-b601-4edb-a1e9-548638c30acb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3023,9 +4443,52 @@
 			)
 		)
 	)
+	(global_label "GPIO19"
+		(shape bidirectional)
+		(at 72.39 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "621c4aaf-0152-4695-9873-da3223b335d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSYS1"
+		(shape input)
+		(at 35.56 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62892971-46f8-4a7c-8251-419ae78df2b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 134.5209 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA V"
 		(shape bidirectional)
-		(at 116.84 107.95 270)
+		(at 119.38 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3036,7 +4499,7 @@
 		)
 		(uuid "663a0e15-75d0-4109-9878-34d4074c77ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 117.6708 90)
+			(at 119.38 104.9708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +4533,7 @@
 	)
 	(global_label "SCL II"
 		(shape bidirectional)
-		(at 53.34 107.95 270)
+		(at 55.88 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3081,7 +4544,7 @@
 		)
 		(uuid "6c7d2f6d-2bcd-4bff-bec0-55ac2f229f92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 117.7313 90)
+			(at 55.88 105.0313 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +4556,7 @@
 	)
 	(global_label "SCL VII"
 		(shape bidirectional)
-		(at 156.21 107.95 270)
+		(at 158.75 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3104,7 +4567,7 @@
 		)
 		(uuid "6da467b2-782b-4f11-bc3a-b98b7eb6f37f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 118.8199 90)
+			(at 158.75 106.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +4601,7 @@
 	)
 	(global_label "SCL VIII"
 		(shape bidirectional)
-		(at 176.53 107.95 270)
+		(at 179.07 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3149,7 +4612,7 @@
 		)
 		(uuid "759944e6-6299-4e1f-af0a-78ffa5ed37c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 119.4247 90)
+			(at 179.07 106.7247 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +4624,7 @@
 	)
 	(global_label "SDA VII"
 		(shape bidirectional)
-		(at 158.75 107.95 270)
+		(at 161.29 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3172,7 +4635,7 @@
 		)
 		(uuid "7684729a-803e-45b1-8d2e-608082180bc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 118.8804 90)
+			(at 161.29 106.1804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +4669,7 @@
 	)
 	(global_label "VSYS2"
 		(shape input)
-		(at 71.12 107.95 270)
+		(at 73.66 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3216,7 +4679,7 @@
 		)
 		(uuid "7a97bcc1-e445-41c8-8708-caa94ce7e134")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 116.7409 90)
+			(at 73.66 104.0409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,9 +4689,51 @@
 			)
 		)
 	)
+	(global_label "GPIO18"
+		(shape bidirectional)
+		(at 69.85 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "7b788eea-c7a9-4b8e-ab47-343ddc3d9aa2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO27"
+		(shape bidirectional)
+		(at 92.71 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "7d290603-ab47-4950-b8e0-0689266c76cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VSYS2"
 		(shape input)
-		(at 30.48 107.95 270)
+		(at 33.02 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3238,7 +4743,72 @@
 		)
 		(uuid "7d4fbb7b-1c8b-42be-b030-c9f3dcf88002")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 116.7409 90)
+			(at 33.02 104.0409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO20"
+		(shape bidirectional)
+		(at 74.93 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "7f9f2189-9032-49ff-8a2f-9f92344d52a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO22"
+		(shape bidirectional)
+		(at 80.01 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "812c46f1-4a77-4311-bef1-7bacb597f249")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL0"
+		(shape bidirectional)
+		(at 201.93 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "83809f83-25bc-49c0-afae-38790cc809dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 104.0636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,9 +4840,53 @@
 			)
 		)
 	)
+	(global_label "SDA0"
+		(shape bidirectional)
+		(at 204.47 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "8718a4cd-bc29-488e-899a-17820922dd55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 104.1241 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO0"
+		(shape bidirectional)
+		(at 38.1 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "8a9065de-c2ac-41ea-974f-32e42652db53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA VIII"
 		(shape bidirectional)
-		(at 179.07 107.95 270)
+		(at 181.61 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3283,7 +4897,7 @@
 		)
 		(uuid "8ae7906b-5528-4b86-bfc7-c4aaeb566009")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 119.4852 90)
+			(at 181.61 106.7852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,9 +4951,30 @@
 			)
 		)
 	)
+	(global_label "GPIO26"
+		(shape bidirectional)
+		(at 90.17 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "95a2fe45-f5e1-443f-b0f5-0236c3093bee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL III"
 		(shape bidirectional)
-		(at 73.66 107.95 270)
+		(at 76.2 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3350,7 +4985,7 @@
 		)
 		(uuid "96fd81f3-c835-466c-8dd8-71260cddc9c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 118.3361 90)
+			(at 76.2 105.6361 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +4997,7 @@
 	)
 	(global_label "SDA III"
 		(shape bidirectional)
-		(at 76.2 107.95 270)
+		(at 78.74 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3373,7 +5008,7 @@
 		)
 		(uuid "a35c0d78-a696-46bd-8392-bea64e618e42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 118.3966 90)
+			(at 78.74 105.6966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +5042,7 @@
 	)
 	(global_label "SDA II"
 		(shape bidirectional)
-		(at 55.88 107.95 270)
+		(at 58.42 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3418,7 +5053,7 @@
 		)
 		(uuid "a913e4de-1959-4900-baf6-688485281996")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 117.7918 90)
+			(at 58.42 105.0918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +5131,29 @@
 	)
 	(global_label "VSYS2"
 		(shape input)
-		(at 133.35 107.95 270)
+		(at 33.02 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8810ed2-cf03-49c0-9a5b-66ba14c1b21b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 134.5209 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSYS2"
+		(shape input)
+		(at 135.89 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3506,7 +5163,7 @@
 		)
 		(uuid "bd656fe5-d6ad-4b63-87dc-457c3e6a58cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 116.7409 90)
+			(at 135.89 104.0409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +5263,7 @@
 	)
 	(global_label "SDA VI"
 		(shape bidirectional)
-		(at 138.43 107.95 270)
+		(at 140.97 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3617,7 +5274,7 @@
 		)
 		(uuid "cfb79263-bfba-4def-aff2-52ee7baedb11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 118.2756 90)
+			(at 140.97 105.5756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,9 +5306,51 @@
 			)
 		)
 	)
+	(global_label "GPIO8"
+		(shape bidirectional)
+		(at 40.64 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "d86884e8-c552-49d8-85f2-470c031d0944")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO16"
+		(shape bidirectional)
+		(at 64.77 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 20 255 6 1)
+			)
+			(justify right)
+		)
+		(uuid "dbadafb4-14e4-4c46-a313-e06b2bf3b240")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA IV"
 		(shape bidirectional)
-		(at 96.52 107.95 270)
+		(at 99.06 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3662,7 +5361,7 @@
 		)
 		(uuid "df6e964a-4b96-4456-8059-c5ff1036daaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 118.2756 90)
+			(at 99.06 105.5756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +5417,7 @@
 	)
 	(global_label "SDA I"
 		(shape bidirectional)
-		(at 35.56 107.95 270)
+		(at 38.1 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3729,7 +5428,7 @@
 		)
 		(uuid "ed0aef64-2bf8-4d77-989b-93e724297427")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 117.187 90)
+			(at 38.1 104.487 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +5484,7 @@
 	)
 	(global_label "VSYS2"
 		(shape input)
-		(at 50.8 107.95 270)
+		(at 53.34 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3795,13 +5494,78 @@
 		)
 		(uuid "ff7693ad-2116-487a-b3a9-d2fcd6d5c3bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 116.7409 90)
+			(at 53.34 104.0409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01856120-7f26-4432-aed0-54622d4c5048")
+		(property "Reference" "#PWR0505"
+			(at 196.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d26d6a66-80f4-4a46-9624-aa65b66673cd")
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
+					(reference "#PWR0505")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3873,7 +5637,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 107.95 0)
+		(at 91.44 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3881,7 +5645,7 @@
 		(dnp no)
 		(uuid "193770c3-7a51-4b05-817a-dcebc8653d3d")
 		(property "Reference" "#PWR075"
-			(at 88.9 114.3 0)
+			(at 91.44 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +5654,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 113.03 90)
+			(at 91.44 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +5662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 107.95 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +5671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 107.95 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +5680,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 107.95 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,207 +5701,17 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors_Molex:Molex_PicoSPOX_87437_4pos")
-		(at 45.72 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "302d8efd-ec58-4052-8fde-c7c72571a56f")
-		(property "Reference" "J847"
-			(at 54.61 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPIO"
-			(at 54.61 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "connectors_molex:MOLEX_874370443"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5mm WtB VHdr SMT TR/Cap 2.54SnLF 4Ckt | Molex Incorporated 87437-0463"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "WM14427TR-ND"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=snap"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1 mm"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=eda"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "87437-0463"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 45.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2_1"
-			(uuid "4208e628-af80-48ac-b8cf-96a02978fc87")
-		)
-		(pin "1_2"
-			(uuid "5feb9983-47a4-4579-8312-f928d340640f")
-		)
-		(pin "1_1"
-			(uuid "4b7f39fc-a1df-46f3-ba91-4c2e5026ec2d")
-		)
-		(pin "4_2"
-			(uuid "efcedb19-ae6c-4864-9bc4-eb1ce2be3912")
-		)
-		(pin "3_1"
-			(uuid "804d50e1-dbf4-4479-8eb5-e99e10d47ff6")
-		)
-		(pin "2_2"
-			(uuid "c2bd0dc2-95d7-41fe-97ac-16656108e61e")
-		)
-		(pin "3_2"
-			(uuid "79b17dfb-ef6b-4a06-a9f3-0ef87dc7c638")
-		)
-		(pin "4_1"
-			(uuid "8939011a-b8f8-4d16-94d6-515ce4f70116")
-		)
-		(instances
-			(project "phytohab_habcontroller_v.4.1"
-				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
-					(reference "J847")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_4pos")
-		(at 71.12 101.6 90)
+		(at 199.39 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "41e753d4-4d02-4196-b64e-d95269bef508")
-		(property "Reference" "J9"
-			(at 80.01 96.2704 90)
+		(uuid "30a6bb46-61a0-47eb-b90a-332f3b03d711")
+		(property "Reference" "J501"
+			(at 208.28 83.5704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +5720,7 @@
 			)
 		)
 		(property "Value" "I²C"
-			(at 80.01 98.8104 90)
+			(at 208.28 86.1104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,8 +5728,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "connectors_molex:Molex_PicoSpox_hor_4pos_874380443"
-			(at 71.12 101.6 0)
+		(property "Footprint" "connectors_molex:MOLEX_874370443"
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +5739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +5748,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +5757,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "WM7648TR-ND"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +5767,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +5777,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +5787,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +5797,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=eda"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +5807,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +5817,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +5827,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=snap"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +5837,7 @@
 			)
 		)
 		(property "MP" "87438-0443"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +5847,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699112&manufacturer=Molex&part_name=87438-0443&search_term=874380443"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +5857,7 @@
 			)
 		)
 		(property "Description_1" "\nHeader 1.50mm Pico-SPOX WTB, SMT, RA,4w | Molex Incorporated 87438-0443\n"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +5867,216 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 71.12 101.6 0)
+			(at 199.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4_2"
+			(uuid "fc5da320-2378-4da3-ae31-60b935024756")
+		)
+		(pin "3_1"
+			(uuid "0b3d306c-7a07-4862-881e-7f85418f565e")
+		)
+		(pin "4_1"
+			(uuid "b813d926-3170-4912-8464-b9a304b46e1f")
+		)
+		(pin "2_1"
+			(uuid "99f4eea6-5919-4cd9-872c-be5edd86f840")
+		)
+		(pin "1_1"
+			(uuid "2e3e20db-dce3-4a53-be76-4b525f9c80fa")
+		)
+		(pin "1_2"
+			(uuid "863aadc9-dddb-43b3-8c31-5cefa54b83c6")
+		)
+		(pin "3_2"
+			(uuid "fb482d47-7463-4d98-8a6f-7efb416f8e34")
+		)
+		(pin "2_2"
+			(uuid "2a9290d5-e86a-454f-bc6f-651335f263c8")
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
+					(reference "J501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_4pos")
+		(at 73.66 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41e753d4-4d02-4196-b64e-d95269bef508")
+		(property "Reference" "J9"
+			(at 82.55 83.5704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "I²C"
+			(at 82.55 86.1104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "connectors_molex:Molex_PicoSpox_hor_4pos_874380443"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "WM7648TR-ND"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Molex"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=eda"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=snap"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "87438-0443"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699112&manufacturer=Molex&part_name=87438-0443&search_term=874380443"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nHeader 1.50mm Pico-SPOX WTB, SMT, RA,4w | Molex Incorporated 87438-0443\n"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +6354,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:DIN_Rail_Adapter")
-		(at 82.55 171.45 0)
+		(at 266.7 36.83 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -4580,7 +6363,7 @@
 		(fields_autoplaced yes)
 		(uuid "472d70c5-0648-4468-9d93-f43a85f4da51")
 		(property "Reference" "DRA503"
-			(at 82.55 163.83 0)
+			(at 266.7 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +6371,7 @@
 			)
 		)
 		(property "Value" "DIN_Rail_Adapter"
-			(at 82.55 166.37 0)
+			(at 266.7 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +6379,7 @@
 			)
 		)
 		(property "Footprint" "MountingEquipment:DINRailAdapter_3xM3_PhoenixContact_1201578"
-			(at 82.55 176.53 0)
+			(at 266.7 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +6388,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 167.64 0)
+			(at 266.7 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +6397,7 @@
 			)
 		)
 		(property "Description" "DIN Rail adapter universal, mounting holes without connection"
-			(at 82.55 171.45 0)
+			(at 266.7 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +6416,7 @@
 	)
 	(symbol
 		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_4pos")
-		(at 133.35 101.6 90)
+		(at 135.89 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4642,7 +6425,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bbfc17b-57a9-401c-b2a4-699bddcd2ece")
 		(property "Reference" "J12"
-			(at 142.24 96.2704 90)
+			(at 144.78 83.5704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +6434,7 @@
 			)
 		)
 		(property "Value" "I²C"
-			(at 142.24 98.8104 90)
+			(at 144.78 86.1104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,8 +6442,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "connectors_molex:Molex_PicoSpox_hor_4pos_874380443"
-			(at 133.35 101.6 0)
+		(property "Footprint" "connectors_molex:MOLEX_874370443"
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +6453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +6462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +6471,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "WM7648TR-ND"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +6481,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +6491,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +6501,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +6511,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=eda"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +6521,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +6531,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +6541,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=snap"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +6551,7 @@
 			)
 		)
 		(property "MP" "87438-0443"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +6561,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699112&manufacturer=Molex&part_name=87438-0443&search_term=874380443"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +6571,7 @@
 			)
 		)
 		(property "Description_1" "\nHeader 1.50mm Pico-SPOX WTB, SMT, RA,4w | Molex Incorporated 87438-0443\n"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +6581,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 133.35 101.6 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,35 +6624,32 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors_Molex:Molex_PicoSPOX_87437_4pos")
-		(at 88.9 133.35 0)
+		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_12pos")
+		(at 80.01 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d38b982-0070-4ef0-aa8b-0aa755e904fc")
-		(property "Reference" "J849"
-			(at 97.79 133.3499 0)
+		(uuid "55da3c70-3352-4271-a463-44a12ab7ec21")
+		(property "Reference" "J504"
+			(at 78.74 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "GPIO"
-			(at 97.79 135.8899 0)
+		(property "Value" "Molex_PicoSPOX_87438_12pos"
+			(at 78.74 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "connectors_molex:MOLEX_874370443"
-			(at 88.9 133.35 0)
+		(property "Footprint" "connectors_molex:MOLEX_874371243"
+			(at 80.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +6659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 133.35 0)
+			(at 80.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,78 +6667,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5mm WtB VHdr SMT TR/Cap 2.54SnLF 4Ckt | Molex Incorporated 87437-0463"
-			(at 88.9 133.35 0)
+		(property "Description" ""
+			(at 80.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "DigiKey_Part_Number" "WM14427TR-ND"
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=snap"
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1 mm"
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=eda"
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 88.9 133.35 0)
+		(property "DigiKey_Part_Number" "WM7656TR-ND"
+			(at 80.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +6687,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 88.9 133.35 0)
+			(at 80.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,8 +6696,88 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "87437-0463"
-			(at 88.9 133.35 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/87438-1243/Molex/view-part/?ref=eda"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-1243/Molex/view-part/?ref=snap"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "87438-1243"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47824&manufacturer=Molex&part_name=87438-1243&search_term=87438-1243"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nHeaders, 12 CKT 1.5mm HDR. Rt.-Angle SMT | Molex Incorporated 87438-1243\n"
+			(at 80.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +6787,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 88.9 133.35 0)
+			(at 80.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,33 +6797,81 @@
 			)
 		)
 		(pin "2_1"
-			(uuid "798fe437-b9e1-494f-9973-3d2f886f4cfe")
-		)
-		(pin "1_2"
-			(uuid "91142516-a968-4a90-a4c8-e6fa54054b7b")
-		)
-		(pin "1_1"
-			(uuid "9ea9ac2d-0576-4340-9733-daeb9bb0f220")
-		)
-		(pin "4_2"
-			(uuid "01d298d9-8846-46b9-8d0c-0aaeace31e0c")
-		)
-		(pin "3_1"
-			(uuid "04ead592-fa9c-4ff7-8eea-e2bf3ab999e8")
+			(uuid "12bd50bd-e53d-4e5d-b71c-f700120f0e7e")
 		)
 		(pin "2_2"
-			(uuid "9084cdd7-2438-400b-a3e9-d6a4fadc2d23")
+			(uuid "a1f997da-9066-42f7-841d-363f78e8f41c")
 		)
 		(pin "3_2"
-			(uuid "fb0211fc-6e78-4385-a2a6-d9958be3378d")
+			(uuid "cd24f782-d40b-414f-9d2a-e09b129b6d15")
+		)
+		(pin "12_2"
+			(uuid "0147b753-b898-4a92-bcb2-48d295af2de2")
+		)
+		(pin "7_1"
+			(uuid "207d0c7f-5c93-4bd0-af42-e5db3a8053af")
+		)
+		(pin "5_1"
+			(uuid "81340302-6195-418a-91ef-95036d93a9b8")
+		)
+		(pin "10_1"
+			(uuid "5124f918-9cd3-49d6-804f-01cd68659cf3")
+		)
+		(pin "1_2"
+			(uuid "b86277b9-9ce1-48ea-bf7b-4d9b80587dcb")
+		)
+		(pin "8_2"
+			(uuid "f4dc2b2a-d9f7-489a-9543-9a073d7dc4c4")
+		)
+		(pin "9_1"
+			(uuid "24861a6a-44c3-4b6c-b963-1cb004934707")
+		)
+		(pin "11_1"
+			(uuid "905efd96-97e5-425a-abeb-397224f4ba7f")
+		)
+		(pin "1_1"
+			(uuid "5c595fbb-5536-4fa0-95c6-c1a456877c7b")
+		)
+		(pin "4_2"
+			(uuid "9a5bbd3f-dd79-4caf-a5d3-81e1590cefe2")
+		)
+		(pin "10_2"
+			(uuid "6ec251df-2f6b-46e0-9828-7eab2c087887")
 		)
 		(pin "4_1"
-			(uuid "b425a3f3-9707-466f-a8c8-5077313610bf")
+			(uuid "dcc887bb-efa3-4124-ae50-fbd2a298148f")
+		)
+		(pin "5_2"
+			(uuid "c886ba33-0296-494e-9e28-d1df6bfb5f4a")
+		)
+		(pin "11_2"
+			(uuid "1ce2aa73-623e-452f-aa60-afaba7972c05")
+		)
+		(pin "8_1"
+			(uuid "f90b45bf-8de3-466f-8c6d-212e2b6b5c38")
+		)
+		(pin "12_1"
+			(uuid "ae8052ec-e4be-4550-bdce-6726cf3021d3")
+		)
+		(pin "6_2"
+			(uuid "a5eeb998-16f2-4720-b504-47b3d85f72e4")
+		)
+		(pin "9_2"
+			(uuid "74bfdcbf-8aae-4299-89a2-5c48e804fc14")
+		)
+		(pin "3_1"
+			(uuid "728170cc-0fd5-4807-bd22-d3a64551b9a0")
+		)
+		(pin "7_2"
+			(uuid "45f78377-0957-47ba-b81c-fdf067eb1609")
+		)
+		(pin "6_1"
+			(uuid "766564f2-63a5-4be3-8a44-0b50a691ca0e")
 		)
 		(instances
 			(project "phytohab_habcontroller_v.4.1"
 				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
-					(reference "J849")
+					(reference "J504")
 					(unit 1)
 				)
 			)
@@ -5143,7 +6990,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:DIN_Rail_Adapter")
-		(at 58.42 171.45 0)
+		(at 242.57 36.83 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5152,7 +6999,7 @@
 		(fields_autoplaced yes)
 		(uuid "62d68d5d-627b-45da-8e85-7466d019ba51")
 		(property "Reference" "DRA502"
-			(at 58.42 163.83 0)
+			(at 242.57 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +7007,7 @@
 			)
 		)
 		(property "Value" "DIN_Rail_Adapter"
-			(at 58.42 166.37 0)
+			(at 242.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +7015,7 @@
 			)
 		)
 		(property "Footprint" "MountingEquipment:DINRailAdapter_3xM3_PhoenixContact_1201578"
-			(at 58.42 176.53 0)
+			(at 242.57 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +7024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 167.64 0)
+			(at 242.57 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +7033,7 @@
 			)
 		)
 		(property "Description" "DIN Rail adapter universal, mounting holes without connection"
-			(at 58.42 171.45 0)
+			(at 242.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,198 +7051,8 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors_Molex:Molex_PicoSPOX_87437_4pos")
-		(at 173.99 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "647ebca3-0515-4580-95b0-80e4cec1f358")
-		(property "Reference" "J853"
-			(at 182.88 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPIO"
-			(at 182.88 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "connectors_molex:MOLEX_874370443"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5mm WtB VHdr SMT TR/Cap 2.54SnLF 4Ckt | Molex Incorporated 87437-0463"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "WM14427TR-ND"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=snap"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1 mm"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=eda"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "87437-0463"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 173.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2_1"
-			(uuid "c3569459-3431-4c94-94b6-aa930b287fd8")
-		)
-		(pin "1_2"
-			(uuid "64bf1357-b8dc-4f21-9c05-1be9a7900d2e")
-		)
-		(pin "1_1"
-			(uuid "e14285f5-a9c0-47cf-a4e1-c1a8d7b0deff")
-		)
-		(pin "4_2"
-			(uuid "8245c3c4-860c-4d93-bc8c-ea7276da3631")
-		)
-		(pin "3_1"
-			(uuid "285e15bb-8622-411b-88d5-7d89fc9d326f")
-		)
-		(pin "2_2"
-			(uuid "1c3d569b-c3f6-4247-80be-f53c98e2a7c1")
-		)
-		(pin "3_2"
-			(uuid "02ccaa3d-aa58-40ee-9d82-26c04464fb2b")
-		)
-		(pin "4_1"
-			(uuid "492881d7-b88d-4265-9372-af39b81e8584")
-		)
-		(instances
-			(project "phytohab_habcontroller_v.4.1"
-				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
-					(reference "J853")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 48.26 107.95 0)
+		(at 50.8 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5403,7 +7060,7 @@
 		(dnp no)
 		(uuid "737e4c8e-498c-4108-a1a0-c206fac70d51")
 		(property "Reference" "#PWR077"
-			(at 48.26 114.3 0)
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +7069,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 113.03 90)
+			(at 50.8 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +7077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 107.95 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +7086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 107.95 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +7095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 107.95 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,45 +7350,33 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors_Molex:Molex_PicoSPOX_87437_4pos")
-		(at 66.04 133.35 0)
+		(lib_id "power:GND")
+		(at 175.26 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e606acc-29f9-4af7-b9e0-4b97c0c0ea5b")
-		(property "Reference" "J848"
-			(at 74.93 133.3499 0)
+		(uuid "8b9716ea-9bce-4a10-95df-abd225a04ae7")
+		(property "Reference" "#PWR0506"
+			(at 175.26 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPIO"
-			(at 74.93 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "connectors_molex:MOLEX_874370443"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 66.04 133.35 0)
+		(property "Value" "GND"
+			(at 175.26 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,179 +7384,63 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5mm WtB VHdr SMT TR/Cap 2.54SnLF 4Ckt | Molex Incorporated 87437-0463"
-			(at 66.04 133.35 0)
+		(property "Datasheet" ""
+			(at 175.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "DigiKey_Part_Number" "WM14427TR-ND"
-			(at 66.04 133.35 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=snap"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1 mm"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=eda"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "87437-0463"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2_1"
-			(uuid "f673f0e7-61e7-4417-9928-2fd9c2e3b882")
-		)
-		(pin "1_2"
-			(uuid "4fbadfff-400f-4475-aa83-cdbee8eee5a4")
-		)
-		(pin "1_1"
-			(uuid "979f459f-6869-44a3-80de-53d0bd0f2266")
-		)
-		(pin "4_2"
-			(uuid "ce9c4d8b-a3a1-41c5-8816-dd03804a7fa3")
-		)
-		(pin "3_1"
-			(uuid "9b07ad4d-b784-408f-8213-fddd9e7d7783")
-		)
-		(pin "2_2"
-			(uuid "61bf7811-52db-4d83-98bf-b4f38ce26556")
-		)
-		(pin "3_2"
-			(uuid "c511a917-b276-4836-86b2-32e97824d13a")
-		)
-		(pin "4_1"
-			(uuid "710aaaa4-47d9-4cf0-ba5c-5d7efab6142f")
+		(pin "1"
+			(uuid "a8402e87-78bd-4605-8d20-307ac1608c90")
 		)
 		(instances
 			(project "phytohab_habcontroller_v.4.1"
 				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
-					(reference "J848")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "connectors_Molex:Molex_PicoSPOX_87437_4pos")
-		(at 109.22 133.35 0)
+		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_12pos")
+		(at 45.72 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a48e3ae3-3d4d-4623-be38-02550747ef33")
-		(property "Reference" "J850"
-			(at 118.11 133.3499 0)
+		(uuid "91b84ff9-0568-41a3-a685-0a10370e4ff1")
+		(property "Reference" "J503"
+			(at 44.45 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "GPIO"
-			(at 118.11 135.8899 0)
+		(property "Value" "Molex_PicoSPOX_87438_12pos"
+			(at 44.45 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "connectors_molex:MOLEX_874370443"
-			(at 109.22 133.35 0)
+		(property "Footprint" "connectors_molex:MOLEX_874371243"
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +7450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 133.35 0)
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,78 +7458,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5mm WtB VHdr SMT TR/Cap 2.54SnLF 4Ckt | Molex Incorporated 87437-0463"
-			(at 109.22 133.35 0)
+		(property "Description" ""
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "DigiKey_Part_Number" "WM14427TR-ND"
-			(at 109.22 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=snap"
-			(at 109.22 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1 mm"
-			(at 109.22 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 109.22 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=eda"
-			(at 109.22 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 109.22 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 109.22 133.35 0)
+		(property "DigiKey_Part_Number" "WM7656TR-ND"
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +7478,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 109.22 133.35 0)
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,138 +7487,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "87437-0463"
-			(at 109.22 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 109.22 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2_1"
-			(uuid "af3b6ecc-ef28-47b4-aae6-e27a3d79a5e9")
-		)
-		(pin "1_2"
-			(uuid "f61158f9-a7f4-4e59-a3fb-bc2275dc402f")
-		)
-		(pin "1_1"
-			(uuid "2b6398f6-862e-4fd9-9dab-8b4d59a5744f")
-		)
-		(pin "4_2"
-			(uuid "eea058bf-3a0e-4986-91a2-90a87a3b32fe")
-		)
-		(pin "3_1"
-			(uuid "45662ee5-1845-43e8-bd8f-e0f66ff7a994")
-		)
-		(pin "2_2"
-			(uuid "f6a82453-5f26-4716-beab-38cae3a00f55")
-		)
-		(pin "3_2"
-			(uuid "ea4befbd-6c9c-466c-adb1-09259bf756c1")
-		)
-		(pin "4_1"
-			(uuid "8e2e5a30-0acc-4fee-b82e-3668930e2463")
-		)
-		(instances
-			(project "phytohab_habcontroller_v.4.1"
-				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
-					(reference "J850")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "connectors_Molex:Molex_PicoSPOX_87437_4pos")
-		(at 132.08 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a66ad7de-b73d-48c1-9adb-31808e5c616c")
-		(property "Reference" "J851"
-			(at 140.97 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPIO"
-			(at 140.97 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "connectors_molex:MOLEX_874370443"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5mm WtB VHdr SMT TR/Cap 2.54SnLF 4Ckt | Molex Incorporated 87437-0463"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "WM14427TR-ND"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=snap"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1 mm"
-			(at 132.08 134.62 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +7498,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 132.08 134.62 0)
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,8 +7507,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=eda"
-			(at 132.08 134.62 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/87438-1243/Molex/view-part/?ref=eda"
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +7518,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 132.08 134.62 0)
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +7528,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 132.08 134.62 0)
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,8 +7537,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Molex"
-			(at 132.08 134.62 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-1243/Molex/view-part/?ref=snap"
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,8 +7547,28 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "87437-0463"
-			(at 132.08 134.62 0)
+		(property "MP" "87438-1243"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47824&manufacturer=Molex&part_name=87438-1243&search_term=87438-1243"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nHeaders, 12 CKT 1.5mm HDR. Rt.-Angle SMT | Molex Incorporated 87438-1243\n"
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +7578,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 132.08 134.62 0)
+			(at 45.72 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,33 +7588,81 @@
 			)
 		)
 		(pin "2_1"
-			(uuid "b36c6f79-e1dd-4971-94c4-88c76d93927c")
-		)
-		(pin "1_2"
-			(uuid "79cae294-d3f4-451f-a416-71adc864e7e9")
-		)
-		(pin "1_1"
-			(uuid "42febbfd-15e2-47ed-909e-163e54045580")
-		)
-		(pin "4_2"
-			(uuid "76bf8b92-fe39-44e2-8536-e8501408c109")
-		)
-		(pin "3_1"
-			(uuid "0e7e79d6-d9e8-4ea2-a854-c9d6731389fd")
+			(uuid "806b7097-0920-4068-a1bd-88b16a0726bc")
 		)
 		(pin "2_2"
-			(uuid "05984e94-efcc-4880-9bde-2a28ad6f2afb")
+			(uuid "4e1b12d2-1b26-4072-9357-8fa1a70cb0e8")
 		)
 		(pin "3_2"
-			(uuid "6a5a3d2b-2588-4c77-a732-03a450bd3a79")
+			(uuid "3ef8b1ea-b365-478d-80b7-3e7a3b55a241")
+		)
+		(pin "12_2"
+			(uuid "38385062-6056-405a-8f57-e0a0de80575b")
+		)
+		(pin "7_1"
+			(uuid "9598274b-4ee4-4f15-b23f-3b7a89bbe054")
+		)
+		(pin "5_1"
+			(uuid "106d12fd-6126-4760-a9c7-2d6f138312f3")
+		)
+		(pin "10_1"
+			(uuid "d76726d7-8077-4032-8e6e-780bfd4141dd")
+		)
+		(pin "1_2"
+			(uuid "7341c50d-9a22-4d43-a584-4968f0176954")
+		)
+		(pin "8_2"
+			(uuid "21121176-b013-472a-bdff-233f72e58dd6")
+		)
+		(pin "9_1"
+			(uuid "ef9aecc5-3389-4432-939e-485742b1873d")
+		)
+		(pin "11_1"
+			(uuid "9305e43c-09d7-4ecc-a3ba-097bcc8d4d70")
+		)
+		(pin "1_1"
+			(uuid "39efccbb-55a7-40c7-a2d3-a034d4a420a6")
+		)
+		(pin "4_2"
+			(uuid "410ced0b-6139-421b-8310-f745fc4246b3")
+		)
+		(pin "10_2"
+			(uuid "40dcffb9-1185-40d5-9c41-e7a4423867d6")
 		)
 		(pin "4_1"
-			(uuid "bf10dafa-4dad-433c-96a0-5102a1ed2616")
+			(uuid "d4f77161-7eec-4c1c-9341-9eed65964aa8")
+		)
+		(pin "5_2"
+			(uuid "9e9ec24e-771b-45cd-97ae-c35ce03a1628")
+		)
+		(pin "11_2"
+			(uuid "4e1b5278-1128-4514-8c97-5342051e0c5a")
+		)
+		(pin "8_1"
+			(uuid "8a6821b8-2b34-4629-a8e9-d13f3711bc36")
+		)
+		(pin "12_1"
+			(uuid "1d96d949-0827-4a6b-b224-d85b520ad2e0")
+		)
+		(pin "6_2"
+			(uuid "b1c1a2fb-5fc7-452a-a1d0-faaa95b2b27e")
+		)
+		(pin "9_2"
+			(uuid "4d9f689a-87c9-4ece-a9e6-fe35a15c81de")
+		)
+		(pin "3_1"
+			(uuid "168a939e-cd8f-4012-a16b-259d766de068")
+		)
+		(pin "7_2"
+			(uuid "94cb2056-10a1-4834-861d-660c5133ee3f")
+		)
+		(pin "6_1"
+			(uuid "c4d015b7-2259-4e36-a7ae-2e8191aeb38a")
 		)
 		(instances
 			(project "phytohab_habcontroller_v.4.1"
 				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
-					(reference "J851")
+					(reference "J503")
 					(unit 1)
 				)
 			)
@@ -6497,8 +7903,260 @@
 		)
 	)
 	(symbol
+		(lib_id "connectors_Molex:Molex_PicoSPOX_87437_3pos")
+		(at 180.34 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad29d9ed-866f-48f1-aa10-a3373c4c893e")
+		(property "Reference" "J502"
+			(at 191.77 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_PicoSPOX_87437_3pos"
+			(at 191.77 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "connectors_molex:MOLEX_874370343"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 3 position 0.059 (1.50mm)"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "WM6684TR-ND"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/874370363/Molex/view-part/?ref=snap"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1 mm"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/874370363/Molex/view-part/?ref=eda"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Molex"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "874370363"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3_1"
+			(uuid "dda2d634-d74c-47fe-a519-e3686b7945cd")
+		)
+		(pin "1_1"
+			(uuid "bcb9beef-6835-43eb-a137-e7b5b1176324")
+		)
+		(pin "2_1"
+			(uuid "e94bff43-8a2b-49b8-b80d-5b842127677a")
+		)
+		(pin "3_2"
+			(uuid "da22c60e-cc75-40fe-8999-9d8578e56d2f")
+		)
+		(pin "1_2"
+			(uuid "e1c57821-0fba-4131-87b8-87e2857c29cd")
+		)
+		(pin "2_2"
+			(uuid "a9946d14-694a-4e18-a82b-6072742d906c")
+		)
+		(instances
+			(project ""
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
+					(reference "J502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b75799ed-27ed-446e-a302-63ac7cf8658c")
+		(property "Reference" "R1001"
+			(at 165.1 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4,7k"
+			(at 165.1 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.1 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64f3df94-39b3-45e7-91c5-d3002b6bface")
+		)
+		(pin "2"
+			(uuid "537f848c-cf58-42c0-aad1-cb812c1cb20e")
+		)
+		(instances
+			(project ""
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
+					(reference "R1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 171.45 107.95 0)
+		(at 173.99 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6506,7 +8164,7 @@
 		(dnp no)
 		(uuid "bd5af14a-4ddf-4b0f-9e1d-79d8d0a93a0b")
 		(property "Reference" "#PWR06"
-			(at 171.45 114.3 0)
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +8173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 113.03 90)
+			(at 173.99 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +8181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 107.95 0)
+			(at 173.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +8190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 107.95 0)
+			(at 173.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +8199,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 107.95 0)
+			(at 173.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +8221,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 107.95 0)
+		(at 111.76 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6571,7 +8229,7 @@
 		(dnp no)
 		(uuid "bf6c201b-333d-413e-a454-c5d4be247b74")
 		(property "Reference" "#PWR074"
-			(at 109.22 114.3 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +8238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 113.03 90)
+			(at 111.76 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +8246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 107.95 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +8255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 107.95 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,7 +8264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 107.95 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +8286,7 @@
 	)
 	(symbol
 		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_4pos")
-		(at 173.99 101.6 90)
+		(at 176.53 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6637,7 +8295,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0ec8af4-ebdc-429b-9091-9796e996ff09")
 		(property "Reference" "J14"
-			(at 182.88 96.2704 90)
+			(at 185.42 83.5704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +8304,7 @@
 			)
 		)
 		(property "Value" "I²C"
-			(at 182.88 98.8104 90)
+			(at 185.42 86.1104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,8 +8312,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "connectors_molex:Molex_PicoSpox_hor_4pos_874380443"
-			(at 173.99 101.6 0)
+		(property "Footprint" "connectors_molex:MOLEX_874370443"
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +8323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +8332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +8341,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "WM7648TR-ND"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,7 +8351,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +8361,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +8371,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +8381,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=eda"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +8391,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,7 +8401,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +8411,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=snap"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,7 +8421,7 @@
 			)
 		)
 		(property "MP" "87438-0443"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,7 +8431,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699112&manufacturer=Molex&part_name=87438-0443&search_term=874380443"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,7 +8441,7 @@
 			)
 		)
 		(property "Description_1" "\nHeader 1.50mm Pico-SPOX WTB, SMT, RA,4w | Molex Incorporated 87438-0443\n"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,7 +8451,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 173.99 101.6 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,6 +8488,71 @@
 			(project "phytohab_habcontroller_v.4.1"
 				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3ef5058-2de9-41a5-9588-9fe94f599002")
+		(property "Reference" "#PWR0508"
+			(at 30.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "808affa1-2661-4a8a-bc97-0b599f759ae9")
+		)
+		(instances
+			(project "phytohab_habcontroller_v.4.1"
+				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -7071,7 +8794,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 107.95 0)
+		(at 30.48 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7079,7 +8802,7 @@
 		(dnp no)
 		(uuid "d04758d9-9187-4e9e-a19f-4977f6bd4f8e")
 		(property "Reference" "#PWR078"
-			(at 27.94 114.3 0)
+			(at 30.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7088,7 +8811,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 113.03 90)
+			(at 30.48 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +8819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 107.95 0)
+			(at 30.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,7 +8828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 107.95 0)
+			(at 30.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,7 +8837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 107.95 0)
+			(at 30.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,198 +8858,8 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors_Molex:Molex_PicoSPOX_87437_4pos")
-		(at 154.94 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d11c0ebb-6915-4247-8126-dc34c402d11b")
-		(property "Reference" "J852"
-			(at 163.83 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPIO"
-			(at 163.83 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "connectors_molex:MOLEX_874370443"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5mm WtB VHdr SMT TR/Cap 2.54SnLF 4Ckt | Molex Incorporated 87437-0463"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "WM14427TR-ND"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=snap"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1 mm"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=eda"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "87437-0463"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2_1"
-			(uuid "49380b65-03d5-4f7b-8eb9-474d4f40a208")
-		)
-		(pin "1_2"
-			(uuid "ece81d88-b9ec-4735-8519-acee01f0829e")
-		)
-		(pin "1_1"
-			(uuid "e157b868-4320-456d-adcd-817ad1f8f9f0")
-		)
-		(pin "4_2"
-			(uuid "16680b5c-c667-49f8-9356-5ff20fe9e775")
-		)
-		(pin "3_1"
-			(uuid "d0a4da09-bee7-4716-aa70-0858cf277eff")
-		)
-		(pin "2_2"
-			(uuid "e0a776b7-eef9-4963-8536-0d196e830547")
-		)
-		(pin "3_2"
-			(uuid "1ab37be5-9c6b-466a-8f85-df99084d839c")
-		)
-		(pin "4_1"
-			(uuid "ce45a920-57c5-4f19-8caf-d384e02df104")
-		)
-		(instances
-			(project "phytohab_habcontroller_v.4.1"
-				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
-					(reference "J852")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 130.81 107.95 0)
+		(at 133.35 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7334,7 +8867,7 @@
 		(dnp no)
 		(uuid "d46af706-68e1-4f88-834f-4d2d64669ccb")
 		(property "Reference" "#PWR072"
-			(at 130.81 114.3 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,7 +8876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 113.03 90)
+			(at 133.35 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7351,7 +8884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 107.95 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +8893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 107.95 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,7 +8902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 107.95 0)
+			(at 133.35 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +8924,7 @@
 	)
 	(symbol
 		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_4pos")
-		(at 91.44 101.6 90)
+		(at 93.98 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7400,7 +8933,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4f9f7d3-0049-4f5c-8d19-7b1742824c36")
 		(property "Reference" "J10"
-			(at 100.33 96.2704 90)
+			(at 102.87 83.5704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +8942,7 @@
 			)
 		)
 		(property "Value" "I²C"
-			(at 100.33 98.8104 90)
+			(at 102.87 86.1104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +8951,7 @@
 			)
 		)
 		(property "Footprint" "connectors_molex:Molex_PicoSpox_hor_4pos_874380443"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +8961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +8970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,7 +8979,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "WM7648TR-ND"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,7 +8989,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +8999,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +9009,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +9019,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=eda"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +9029,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +9039,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +9049,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=snap"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +9059,7 @@
 			)
 		)
 		(property "MP" "87438-0443"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +9069,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699112&manufacturer=Molex&part_name=87438-0443&search_term=874380443"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +9079,7 @@
 			)
 		)
 		(property "Description_1" "\nHeader 1.50mm Pico-SPOX WTB, SMT, RA,4w | Molex Incorporated 87438-0443\n"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +9089,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 91.44 101.6 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +9133,7 @@
 	)
 	(symbol
 		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_4pos")
-		(at 153.67 101.6 90)
+		(at 156.21 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7609,7 +9142,7 @@
 		(fields_autoplaced yes)
 		(uuid "d894213c-81cc-4f17-98a5-9fd648529b0f")
 		(property "Reference" "J13"
-			(at 162.56 96.2704 90)
+			(at 165.1 83.5704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +9151,7 @@
 			)
 		)
 		(property "Value" "I²C"
-			(at 162.56 98.8104 90)
+			(at 165.1 86.1104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,8 +9159,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "connectors_molex:Molex_PicoSpox_hor_4pos_874380443"
-			(at 153.67 101.6 0)
+		(property "Footprint" "connectors_molex:MOLEX_874370443"
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7637,7 +9170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +9179,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,7 +9188,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "WM7648TR-ND"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +9198,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,7 +9208,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +9218,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +9228,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=eda"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,7 +9238,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,7 +9248,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +9258,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=snap"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +9268,7 @@
 			)
 		)
 		(property "MP" "87438-0443"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +9278,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699112&manufacturer=Molex&part_name=87438-0443&search_term=874380443"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +9288,7 @@
 			)
 		)
 		(property "Description_1" "\nHeader 1.50mm Pico-SPOX WTB, SMT, RA,4w | Molex Incorporated 87438-0443\n"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,7 +9298,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 153.67 101.6 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +9342,7 @@
 	)
 	(symbol
 		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_4pos")
-		(at 50.8 101.6 90)
+		(at 53.34 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7818,7 +9351,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd70da19-b446-4f27-a196-89ad2acafa37")
 		(property "Reference" "J8"
-			(at 59.69 96.2704 90)
+			(at 62.23 83.5704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +9360,7 @@
 			)
 		)
 		(property "Value" "I²C"
-			(at 59.69 98.8104 90)
+			(at 62.23 86.1104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +9369,7 @@
 			)
 		)
 		(property "Footprint" "connectors_molex:Molex_PicoSpox_hor_4pos_874380443"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7846,7 +9379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,7 +9388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7864,7 +9397,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "WM7648TR-ND"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +9407,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +9417,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +9427,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +9437,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=eda"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,7 +9447,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +9457,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +9467,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=snap"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +9477,7 @@
 			)
 		)
 		(property "MP" "87438-0443"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,7 +9487,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699112&manufacturer=Molex&part_name=87438-0443&search_term=874380443"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +9497,7 @@
 			)
 		)
 		(property "Description_1" "\nHeader 1.50mm Pico-SPOX WTB, SMT, RA,4w | Molex Incorporated 87438-0443\n"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +9507,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 50.8 101.6 0)
+			(at 53.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8018,7 +9551,7 @@
 	)
 	(symbol
 		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_4pos")
-		(at 111.76 101.6 90)
+		(at 114.3 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8027,7 +9560,7 @@
 		(fields_autoplaced yes)
 		(uuid "e31e204d-431f-49bb-8d99-9ea4a1ccb106")
 		(property "Reference" "J11"
-			(at 120.65 96.2704 90)
+			(at 123.19 83.5704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8036,7 +9569,7 @@
 			)
 		)
 		(property "Value" "I²C"
-			(at 120.65 98.8104 90)
+			(at 123.19 86.1104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,8 +9577,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "connectors_molex:Molex_PicoSpox_hor_4pos_874380443"
-			(at 111.76 101.6 0)
+		(property "Footprint" "connectors_molex:MOLEX_874370443"
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8055,7 +9588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,7 +9597,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +9606,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "WM7648TR-ND"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +9616,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +9626,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +9636,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +9646,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=eda"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,7 +9656,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +9666,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +9676,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=snap"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +9686,7 @@
 			)
 		)
 		(property "MP" "87438-0443"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +9696,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699112&manufacturer=Molex&part_name=87438-0443&search_term=874380443"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +9706,7 @@
 			)
 		)
 		(property "Description_1" "\nHeader 1.50mm Pico-SPOX WTB, SMT, RA,4w | Molex Incorporated 87438-0443\n"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +9716,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 111.76 101.6 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +9760,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 107.95 0)
+		(at 71.12 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8235,7 +9768,7 @@
 		(dnp no)
 		(uuid "efba0bae-d3b2-47d5-abfe-e8ffffb18557")
 		(property "Reference" "#PWR076"
-			(at 68.58 114.3 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8244,7 +9777,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 113.03 90)
+			(at 71.12 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +9785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 107.95 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +9794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 107.95 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +9803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 107.95 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +9825,7 @@
 	)
 	(symbol
 		(lib_id "connectors_Molex:Molex_PicoSPOX_87438_4pos")
-		(at 30.48 101.6 90)
+		(at 33.02 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8301,7 +9834,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0254924-34b4-49a6-9174-cd7e4b33c442")
 		(property "Reference" "J7"
-			(at 39.37 96.2704 90)
+			(at 41.91 83.5704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +9843,7 @@
 			)
 		)
 		(property "Value" "I²C"
-			(at 39.37 98.8104 90)
+			(at 41.91 86.1104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +9852,7 @@
 			)
 		)
 		(property "Footprint" "connectors_molex:Molex_PicoSpox_hor_4pos_874380443"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +9862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +9871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +9880,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "WM7648TR-ND"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +9890,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,7 +9900,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.45 mm"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +9910,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +9920,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=eda"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +9930,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8407,7 +9940,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8417,7 +9950,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87438-0443/Molex/view-part/?ref=snap"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8427,7 +9960,7 @@
 			)
 		)
 		(property "MP" "87438-0443"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +9970,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=699112&manufacturer=Molex&part_name=87438-0443&search_term=874380443"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +9980,7 @@
 			)
 		)
 		(property "Description_1" "\nHeader 1.50mm Pico-SPOX WTB, SMT, RA,4w | Molex Incorporated 87438-0443\n"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +9990,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 30.48 101.6 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +10034,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:DIN_Rail_Adapter")
-		(at 34.29 171.45 0)
+		(at 218.44 36.83 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -8510,7 +10043,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8970dbc-ead7-4adc-871b-9a33a33cdd1f")
 		(property "Reference" "DRA501"
-			(at 34.29 163.83 0)
+			(at 218.44 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,7 +10051,7 @@
 			)
 		)
 		(property "Value" "DIN_Rail_Adapter"
-			(at 34.29 166.37 0)
+			(at 218.44 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,7 +10059,7 @@
 			)
 		)
 		(property "Footprint" "MountingEquipment:DINRailAdapter_3xM3_PhoenixContact_1201578"
-			(at 34.29 176.53 0)
+			(at 218.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +10068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 167.64 0)
+			(at 218.44 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +10077,7 @@
 			)
 		)
 		(property "Description" "DIN Rail adapter universal, mounting holes without connection"
-			(at 34.29 171.45 0)
+			(at 218.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,198 +10095,8 @@
 		)
 	)
 	(symbol
-		(lib_id "connectors_Molex:Molex_PicoSPOX_87437_4pos")
-		(at 20.32 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff074de8-32fa-463d-9b4c-1ac2be8ec66a")
-		(property "Reference" "J523"
-			(at 29.21 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPIO"
-			(at 29.21 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "connectors_molex:MOLEX_874370443"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5mm WtB VHdr SMT TR/Cap 2.54SnLF 4Ckt | Molex Incorporated 87437-0463"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "WM14427TR-ND"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=snap"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1 mm"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/87437-0463/Molex/view-part/?ref=eda"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "87437-0463"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2_1"
-			(uuid "8fc51636-40ca-46d1-8fa0-9a77d0a9d261")
-		)
-		(pin "1_2"
-			(uuid "c0d6ca80-3e7f-464f-a2cc-3d9287e95ffb")
-		)
-		(pin "1_1"
-			(uuid "be292c90-d2d7-4f1d-98fa-9c3dca0d31ec")
-		)
-		(pin "4_2"
-			(uuid "eb3ce364-9777-40d6-9662-fd5b964b1e5c")
-		)
-		(pin "3_1"
-			(uuid "674a3f00-c408-4f12-9023-d50960373fd9")
-		)
-		(pin "2_2"
-			(uuid "4c6c0cee-e503-4325-ba49-e5a4008f5e64")
-		)
-		(pin "3_2"
-			(uuid "33290ca3-917a-4689-b823-c4951fdec187")
-		)
-		(pin "4_1"
-			(uuid "6cad6b23-59f0-4b3e-8fbc-3276a7fc4329")
-		)
-		(instances
-			(project ""
-				(path "/63d8ebc3-d81d-4869-925f-b28ad884a523/abd455d8-329f-441e-8b46-a9e39d61c815"
-					(reference "J523")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 151.13 107.95 0)
+		(at 153.67 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8761,7 +10104,7 @@
 		(dnp no)
 		(uuid "ff852bd2-3b7a-4f50-bd01-6461e6183895")
 		(property "Reference" "#PWR07"
-			(at 151.13 114.3 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +10113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 113.03 90)
+			(at 153.67 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +10121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 107.95 0)
+			(at 153.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +10130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 107.95 0)
+			(at 153.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +10139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 107.95 0)
+			(at 153.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

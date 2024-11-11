@@ -1524,8 +1524,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0d650d4e-eccb-41fd-b54d-77588ed93e9d")
 		(property "Reference" "U701"
@@ -1726,8 +1726,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "adcecc08-1234-4bab-9d78-0bf7a377fe66")
 		(property "Reference" "R702"
 			(at 60.96 53.34 90)
@@ -1795,8 +1795,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "d84b5529-3c4b-4134-ab2b-5e9516500b12")
 		(property "Reference" "R701"
 			(at 50.8 53.34 90)
