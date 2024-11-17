@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -64,17 +64,17 @@
       39,
       40
     ],
-    "visible_layers": "7ffffff_80000007",
+    "visible_layers": "ffdffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "bHN8325vO5E65s1e",
-    "repo_type": "https",
-    "repo_username": "lwelser",
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "phytohab_habcontroller_v.4.1.kicad_prl",
+    "filename": "phytohab_habcontroller_daughterboard_v.4.1.kicad_prl",
     "version": 3
   },
   "project": {
