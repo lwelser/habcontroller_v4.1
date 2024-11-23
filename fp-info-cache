@@ -1,4 +1,4 @@
-22867773278824819
+22874701417424925
 3588TR
 FUSE_3588
 
@@ -57791,6 +57791,20 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+HTSS-120-01-L-DV
+SAMTEC_HTSS-120-01-L-DV
+
+
+0
+40
+40
+HTST_120_01_L_DV
+SAMTEC_HTST-120-01-L-DV
+
+
+0
+40
+40
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -84146,6 +84160,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SFM
+SAMTEC_SFM-110-02-L-D
+
+
+0
+20
+20
 SHT45_AD1F_R2
 SHT4X
 Consumer SHT4x Digital and Analog
@@ -92247,6 +92268,13 @@ SAMTEC_FTSH-108-05-L-DV
 16
 connectors_SAMTEC
 SAMTEC_FTSH-110-05-L-DV-P-TR
+
+
+0
+20
+20
+connectors_SAMTEC
+SAMTEC_SFM-110-02-L-D
 
 
 0

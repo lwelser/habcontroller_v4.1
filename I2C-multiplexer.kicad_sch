@@ -1227,27 +1227,6 @@
 			)
 		)
 	)
-	(global_label "SCL1 (GPIO3)"
-		(shape bidirectional)
-		(at 35.56 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 64 145 0 1)
-			)
-			(justify right)
-		)
-		(uuid "4193632d-2c8a-4123-b489-4ff66ff31748")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA IV"
 		(shape bidirectional)
 		(at 72.39 64.77 0)
@@ -1267,27 +1246,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA1 (GPIO2)"
-		(shape bidirectional)
-		(at 35.56 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 64 145 0 1)
-			)
-			(justify right)
-		)
-		(uuid "50895380-92dc-4f85-a11b-6e8abb85d3df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -1380,6 +1338,48 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL1"
+		(shape bidirectional)
+		(at 35.56 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 64 145 0 1)
+			)
+			(justify right)
+		)
+		(uuid "b870f0c6-2b0f-4da5-be8d-89dd3572ee1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA1"
+		(shape bidirectional)
+		(at 35.56 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 64 145 0 1)
+			)
+			(justify right)
+		)
+		(uuid "c029ae15-a272-4896-beb1-aa172eb9b7f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

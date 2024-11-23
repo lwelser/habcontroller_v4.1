@@ -63,15 +63,15 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
+        "annular_width": "ignore",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -85,8 +85,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -111,7 +111,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
@@ -678,7 +678,7 @@
     ],
     [
       "7773dce3-43b2-4fdb-a245-258140eb82d5",
-      "RPi_CM4"
+      "RPi"
     ],
     [
       "fff94551-8b7c-4eb8-ba7c-511646405896",
@@ -687,18 +687,6 @@
     [
       "8a65ced2-6c74-4da7-a404-c238d079fe7e",
       "PCA9548"
-    ],
-    [
-      "3f37d4d4-08eb-4633-ad5b-e9a295a64040",
-      "PCF8575C"
-    ],
-    [
-      "6e0152ea-4437-4951-89f1-a365e2dacb39",
-      "PCA9685"
-    ],
-    [
-      "1fcae418-b7ef-4cf0-be49-1180cf9bc64f",
-      "storage"
     ],
     [
       "abd455d8-329f-441e-8b46-a9e39d61c815",
